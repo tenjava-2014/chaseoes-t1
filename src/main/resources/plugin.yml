@@ -1,0 +1,3 @@
+name: chaseoes-t1
+main: com.tenjava.entries.chaseoes.t1.TenJava
+version: '${project.version}'
