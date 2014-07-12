@@ -5,7 +5,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.chaseoes.extraweapons.listeners.InteractListener;
+import com.chaseoes.extraweapons.listeners.EntityDamageByEntityListener;
 
 public class ExtraWeapons extends JavaPlugin {
 
@@ -19,7 +19,7 @@ public class ExtraWeapons extends JavaPlugin {
         instance = this;
 
         PluginManager pm = getServer().getPluginManager();
-        pm.registerEvents(new InteractListener(), this);
+        pm.registerEvents(new EntityDamageByEntityListener(), this);
 
         CustomCrafting.addBlastNSlash();
     }
