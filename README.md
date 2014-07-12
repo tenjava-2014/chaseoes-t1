@@ -19,7 +19,7 @@ Compilation
 
 - Download & Install [Maven 3](http://maven.apache.org/download.html)
 - Clone the repository: `git clone https://github.com/tenjava/chaseoes-t1`
-- Compile and create the plugin package using Maven: `mvn`
+- Compile and create the plugin package using Maven: `clean package`
 
 Maven will download all required dependencies and build a ready-for-use plugin package!
 
@@ -28,8 +28,12 @@ Maven will download all required dependencies and build a ready-for-use plugin p
 Usage
 -----
 
-1. Install plugin
-2. Do things with it
+This plugin adds an array of different weapons, all of which are crafted using a nether star.
 
-<!-- Hi, chaseoes! This is the default README for every ten.java submission. -->
-<!-- We encourage you to edit this README with some information about your submission – keep in mind you'll be scored on documentation! -->
+### Blast 'n Slash
+
+![blastaxe](http://i.imgur.com/VdwGWqA.png)
+
+![blastaxe](http://i.imgur.com/MEnybHs.png)
+
+This is an axe that has a 10% chance of creating an explosion when used against an entity.
