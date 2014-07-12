@@ -1,3 +1,8 @@
-name: chaseoes-t1
-main: com.tenjava.entries.chaseoes.t1.TenJava
-version: '${project.version}'
+name: ${project.name}
+main: ${project.groupId}.${upload.dbo.slug}.${project.name}
+version: ${project.version}
+description: ${project.description}
+commands:
+  ${upload.dbo.slug}:
+    description: The central command for the ${project.name} plugin.
+    usage: /<command> [args]
